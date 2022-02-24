@@ -1,0 +1,175 @@
+body {
+  font-family: "Montserrat";
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 2;
+  font-weight: 900;
+  color: white;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1.3rem;
+}
+ 
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.row {
+  margin-top: 10%;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+.image {
+  width: 60%;
+  transform: rotate(25deg);
+  z-index: 1;
+  position: relative;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* #features {
+  padding: 7% 15%;
+} */
+
+.section-text {
+  text-align: center;
+  padding-bottom: 150px;
+}
+
+.section-text h3 {
+  font-family: "Montserrat";
+  font-size: 2rem;
+}
+
+/* .section-text p {
+  color: #8f8f8f;
+  font-size: 1.3rem;
+} */
+
+.icon {
+  padding: 0 0 5px 0;
+  font-size: 2rem;
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.test-img {
+  width: 15%;
+  border-radius: 100px;
+  margin: 20px;
+}
+
+/* press */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+.press-logo {
+  width: 8%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* pricing */
+
+#pricing {
+  padding: 100px;
+}
+
+.yo {
+  text-align: center;
+}
+
+/* .yo p {
+  color: #8f8f8f;
+  font-size: 1.3rem;
+} */
+
+@media (max-width: 1028px) {
+  .image {
+    transform: rotate(0deg);
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+/* Call to Action */
+
+#cta {
+  background-color: #ff4c68;
+  font-family: "Montserrat";
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  padding: 5% 15%;
+}
+
+.btn {
+  margin: 3% 3% 0 0;
+}
+
+/* 
+footer */
+
+#footer {
+  text-align: center;
+  margin-top: 30px;
+  background-color: #fff;
+  color: #8f8f8f;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
